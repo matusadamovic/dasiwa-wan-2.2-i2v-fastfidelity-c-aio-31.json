@@ -1,0 +1,184 @@
+{
+  "input": {
+    "workflow": {
+      "105": {
+        "inputs": {},
+        "class_type": "Label (rgthree)",
+        "_meta": {
+          "title": "DaSiWa - WAN 2.2 i2v FastFidelity"
+        }
+      },
+      "106": {
+        "inputs": {},
+        "class_type": "Label (rgthree)",
+        "_meta": {
+          "title": "by Darksidewalker"
+        }
+      },
+      "422": {
+        "inputs": {
+          "value": {},
+          "model": [
+            "911",
+            5
+          ]
+        },
+        "class_type": "Power Lora Loader (rgthree)",
+        "_meta": {
+          "title": "Loras LOW"
+        }
+      },
+      "436": {
+        "inputs": {
+          "value": {},
+          "model": [
+            "911",
+            4
+          ],
+          "clip": [
+            "911",
+            3
+          ]
+        },
+        "class_type": "Power Lora Loader (rgthree)",
+        "_meta": {
+          "title": "Loras HIGH"
+        }
+      },
+      "471": {
+        "inputs": {},
+        "class_type": "Fast Groups Bypasser (rgthree)",
+        "_meta": {
+          "title": "Features - Switch"
+        }
+      },
+      "644": {
+        "inputs": {
+          "text": "Intermediate and Utility",
+          "filenames": [
+            "958",
+            0
+          ]
+        },
+        "class_type": "VHS_PruneOutputs",
+        "_meta": {
+          "title": "VHS_PruneOutputs"
+        }
+      },
+      "731": {
+        "inputs": {
+          "text": "1"
+        },
+        "class_type": "Bookmark (rgthree)",
+        "_meta": {
+          "title": "🔖(1) Settings, Prompt, Image, Video"
+        }
+      },
+      "907": {
+        "inputs": {
+          "filenames": [
+            "958",
+            0
+          ]
+        },
+        "class_type": "d76e7c3a-3052-4bc8-960d-1955d34f9b13",
+        "_meta": {
+          "title": "d76e7c3a-3052-4bc8-960d-1955d34f9b13"
+        }
+      },
+      "911": {
+        "inputs": {
+          "model": [
+            "436",
+            0
+          ],
+          "model_1": [
+            "422",
+            0
+          ],
+          "image": [
+            "959",
+            0
+          ],
+          "image_1": [
+            "960",
+            0
+          ],
+          "clip": [
+            "436",
+            1
+          ]
+        },
+        "class_type": "4123daa5-14f2-4f1e-9343-aa619fdd9f9b",
+        "_meta": {
+          "title": "4123daa5-14f2-4f1e-9343-aa619fdd9f9b"
+        }
+      },
+      "958": {
+        "inputs": {
+          "value": 8,
+          "images": [
+            "911",
+            2
+          ],
+          "frame_rate": [
+            "911",
+            0
+          ],
+          "crf": [
+            "911",
+            1
+          ]
+        },
+        "class_type": "VHS_VideoCombine",
+        "_meta": {
+          "title": "VHS_VideoCombine"
+        }
+      },
+      "959": {
+        "inputs": {
+          "image": "example.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "First-Frame-Image"
+        }
+      },
+      "960": {
+        "inputs": {
+          "image": "example.png"
+        },
+        "class_type": "LoadImage",
+        "_meta": {
+          "title": "Last-Frame-Image"
+        }
+      },
+      "963": {
+        "inputs": {},
+        "class_type": "Fast Groups Bypasser (rgthree)",
+        "_meta": {
+          "title": "Checkpoint Switch"
+        }
+      },
+      "964": {
+        "inputs": {
+          "filenames": [
+            "958",
+            0
+          ]
+        },
+        "class_type": "389488bb-b521-415d-b146-8ad069104327",
+        "_meta": {
+          "title": "389488bb-b521-415d-b146-8ad069104327"
+        }
+      },
+      "965": {
+        "inputs": {},
+        "class_type": "Fast Groups Bypasser (rgthree)",
+        "_meta": {
+          "title": "Resolution (automatic scaling)"
+        }
+      }
+    }
+  }
+}
